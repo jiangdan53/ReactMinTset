@@ -1,0 +1,19 @@
+.item{
+    margin: 2px 5px;
+    padding: 2px 5px;
+    color: chocolate;
+    border: 1px solid #ccc;
+    
+}
+.noChrng{
+    cursor: no-drop;
+    border: 1px solid #ccc;
+    color: #ccc;
+}
+.active{
+    color: red;
+    border: none;
+}
+span{
+    user-select: none;
+}

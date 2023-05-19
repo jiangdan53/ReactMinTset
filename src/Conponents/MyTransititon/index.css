@@ -1,0 +1,6 @@
+.my-enter,.my-exit-done,.my-exit-active,.my-appear{
+    opacity: 0;
+}
+.my-enter-active,.my-appear-active{
+    opacity: 1;
+}

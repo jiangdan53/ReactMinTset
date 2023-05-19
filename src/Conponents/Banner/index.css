@@ -1,0 +1,82 @@
+.Banner-conent{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid  #000;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 200px;
+
+}
+.Banner-conent:hover .for{
+    display: flex;
+} 
+.for{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+
+
+}
+
+.for>span{
+    width: 15px;
+    height: 20px;
+    /* 垂直 */
+    line-height: 20px;
+    background-color: rgba(0,0,0,.2);
+    color: #fff;
+    cursor: pointer;
+    /* 水平 */
+    align-items: baseline;
+}
+.for>span:hover{
+    background-color: rgba(0,0,0,.5);
+
+}
+.for>.for-left{
+    border-radius: 0 20px 20px 0;
+}
+.for .for-right{
+    border-radius: 20px  0  0 20px;
+}
+.spot-conten{
+    padding:  3px 5px ;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);  
+    display: flex; 
+    border-radius: 10px;
+    background-color: rgb(241, 232, 232);
+}
+.spot-conten>span{
+    margin: 1px 3px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.spot-conten .activ{
+    background-color: red;
+}
+.ImgDiv{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+
+.ImgDiv img{
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+}
+ 

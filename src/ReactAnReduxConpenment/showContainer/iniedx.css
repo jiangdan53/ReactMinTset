@@ -1,0 +1,134 @@
+.top-div{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    background-color: aqua;
+    align-items: center;
+   
+}
+.top-div  h3{
+    min-width: 250px;
+    margin-left: 50px;
+}
+.top-div .btn-div{
+min-width: 300px;
+height: 100%;
+margin-right: 20px;
+line-height: 60px;
+
+position: relative;
+}
+.btn-div span{
+    display: block;
+    min-width: 80px;
+    position: absolute;
+    left: 0;
+  
+}
+.btn-div .btns{
+    position: absolute;
+    right: 20px;
+}
+
+.btn-div  .btns button{
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color:transparent;
+    width: 50px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #4848;
+    margin-left: 5px;
+    border-radius: 8px;
+}
+.btn-div  .btns .login:hover{
+background-color: rgba(100, 120,200, .8);
+width: 55px;
+height: 33px;
+}
+.btn-div  .btns .esc:hover{
+    background-color: rgba(248, 3, 3, 0.8);
+    width: 55px;
+    height: 33px;
+}
+.lift-list{
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    width: 250px;
+    background-color: rgb(26, 215, 199);
+  
+}
+.lift-list ul {
+ 
+    list-style:  none;
+}
+.lift-list ul  li{
+    min-width: 120px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px  solid  #7878;
+    border-radius: 8px;
+    margin:   0 10px 8px 0;
+    cursor: pointer;
+}
+.lift-list ul  li a {
+    color: #000;
+    text-decoration: none;
+}
+.lift-list  ul .active{
+    background-color: #5696;
+}
+.stu-list{
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    right: 0;
+    bottom: 0;
+    padding: 10px 0 0  20px;
+}
+.stu-list .Tab{
+    border-collapse: collapse;
+    margin: auto;
+}
+ 
+.stu-list .Tab tr,th,td{
+    padding: 5px;
+    min-width: 100px;
+    border: 1px solid #767676;
+    box-sizing: border-box;  
+    text-align: center;
+}
+
+.stu-list .Tab td button{
+    width: 50px;
+    height: 30px;
+    font-size: 12px;
+    border: none;
+    padding: 5px 8px;
+    margin-left: 3px;
+    background-color: transparent;
+    border: 1px solid #2365;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.stu-list .Tab td .xbtn{
+    background-color: rgba(51, 61, 149,.5);
+}
+
+.stu-list .Tab td .xbtn:hover{
+    background-color: rgba(51, 61, 149,.9);
+}
+.stu-list  .Tab td .sbtn{
+    background-color: rgba(248, 3, 3, .5);
+}
+.stu-list  .Tab td .sbtn:hover{
+    background-color: rgba(248, 3, 3, .9);
+}
+
+

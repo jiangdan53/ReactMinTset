@@ -1,0 +1,15 @@
+.Tab{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 20px  0;
+}
+.Tab tr{
+    height: 30px;
+}
+.Boy tr,th,td{
+    padding: 5px;
+    min-width: 100px;
+    border: 1px solid #767676;
+}

@@ -1,0 +1,21 @@
+.search{
+    margin: 5px 8px;
+}
+.search label{
+    margin-left: 5px;
+}
+.search .search-Inp{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid  #656565;
+    padding-left: 8px;
+    }
+.search .search-but{
+    padding: 3px 8px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid  rebeccapurple;
+    border-radius: 7px;
+    margin-left: 5px;
+}
